@@ -20,6 +20,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Find the View that shows the colors category
         TextView colors = (TextView) findViewById(R.id.colors);
+
 
         // Set a click listener on that View
         colors.setOnClickListener(new OnClickListener() {
